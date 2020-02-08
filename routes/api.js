@@ -1,6 +1,6 @@
 const router = require("express").Router();
 
-const Workout = require("../models/workout.js");
+const Workout = require("../models/transaction.js/index.js.js");
 
 router.get("/api/workouts", (req, res) => {
     Workout.find({}).then(workoutINfo => {
